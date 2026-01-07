@@ -1,0 +1,20 @@
+{
+  "buggy_code1.py": {
+    "issues": ["Division by zero in divide function"],
+    "refactor_suggestions": ["Add zero check in divide"],
+    "test_suggestions": ["Test divide with zero denominator"],
+    "uncertainties": []
+  },
+  "buggy_code2.py": {
+    "issues": ["add function called with non-numeric input"],
+    "refactor_suggestions": ["Add type checking for add function"],
+    "test_suggestions": ["Test add with string input"],
+    "uncertainties": []
+  },
+  "clean_code1.py": {
+    "issues": [],
+    "refactor_suggestions": [],
+    "test_suggestions": [],
+    "uncertainties": []
+  }
+}
